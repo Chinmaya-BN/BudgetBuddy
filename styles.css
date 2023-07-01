@@ -1,0 +1,70 @@
+
+
+/* .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } */
+
+  .bg-img-1
+  {
+      background-image: url('about1.png'); 
+  }
+
+
+
+.bg-img-2
+{
+    background-image: url('expenses.png'); 
+}
+.bg-img-3
+{
+    background-image: url('insight1.png'); 
+}
+
+.carousel-image
+{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:258px;
+    background-position: center;
+}
+.nav-link {
+    color: white;
+    
+}
+.nav-link:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.nav-link .dropdown-toggle:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.nav-link .dropdown-toggle:visited
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.heading
+{
+    text-align: center;
+}
+.emphasis
+{
+    font-weight: bolder;
+}
+body{
+    background-color:#F7F5EB ;
+}
+
+.carousel-container {
+    background-color: #F7F5EB; /* Set the initial background color */
+    transition: background-color 0.5s ease; /* Add transition for smooth color change */
+  }
